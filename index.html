@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>주40시간 계산기</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<h1>주40시간 계산기</h1>
+	<table id="time-table">
+		<thead>
+			<tr>
+				<th>요일</th>
+				<th>출퇴근 시간</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- 예: 월, 화, 수, 목, 금 -->
+			<tr>
+				<td>월</td>
+				<td><input type="text" class="timerange" placeholder="09:00 - 18:00"></td>
+			</tr>
+			<tr>
+				<td>화</td>
+				<td><input type="text" class="timerange" placeholder="09:00 - 18:00"></td>
+			</tr>
+			<tr>
+				<td>수</td>
+				<td><input type="text" class="timerange" placeholder="09:00 - 18:00"></td>
+			</tr>
+			<tr>
+				<td>목</td>
+				<td><input type="text" class="timerange" placeholder="09:00 - 18:00"></td>
+			</tr>
+			<tr>
+				<td>금</td>
+				<td><input type="text" class="timerange" placeholder="출근만 입력"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<button id="calc-btn">계산하기</button>
+
+	<div id="result">
+		<!-- 결과가 여기에 표시됩니다 -->
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
